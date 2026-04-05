@@ -1,0 +1,8 @@
+N, XP = map(int, input().split())
+XPiYoda, XPiLuke, XPiAhsoka = map(int, input().split())
+
+Total= N * XP
+
+print(f"Yoda {Total + XPiYoda}")
+print(f"Luke {Total + XPiLuke}")
+print(f"Ahsoka {Total + XPiAhsoka}")
