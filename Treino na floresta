@@ -1,0 +1,6 @@
+T = int(input())
+X = int(input())
+
+posicao_final = X % T
+
+print(posicao_final)
