@@ -1,0 +1,6 @@
+T, D = map(int, input().split())
+V, P = map(int, input().split())
+
+if 1 <= T <= 1000 and 1 <= D <= 1000 and 1 <= V <= 100 and 1 <= P <= 100:
+    TOTAL = (T // D) * P + (T * V)
+    print(TOTAL)
