@@ -1,0 +1,6 @@
+X = float(input())
+Y = float(input())
+
+resultado = X + Y
+
+print(f"{resultado:.2f}")
