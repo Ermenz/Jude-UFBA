@@ -1,0 +1,7 @@
+E, T = map(int, input().split())
+
+V = int 
+
+V = E/T
+
+print(int(V))
